@@ -1,0 +1,786 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E10AC2AE282D8BC500C4BE29 /* ProfileTypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10AC2AC282D8BC500C4BE29 /* ProfileTypesViewController.swift */; };
+		E10AC2AF282D8BC500C4BE29 /* ProfileTypesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E10AC2AD282D8BC500C4BE29 /* ProfileTypesViewController.xib */; };
+		E10AC2B1282D8BF200C4BE29 /* ProfileTypesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10AC2B0282D8BF200C4BE29 /* ProfileTypesViewModel.swift */; };
+		E10AC2B2282D8BF200C4BE29 /* ProfileTypesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10AC2B0282D8BF200C4BE29 /* ProfileTypesViewModel.swift */; };
+		E10AC2B4282D8C0600C4BE29 /* DefaultProfileTypesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10AC2B3282D8C0600C4BE29 /* DefaultProfileTypesViewModel.swift */; };
+		E10AC2B5282D8C0600C4BE29 /* DefaultProfileTypesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10AC2B3282D8C0600C4BE29 /* DefaultProfileTypesViewModel.swift */; };
+		E10AC2B7282D8C9200C4BE29 /* ProfileTypesCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10AC2B6282D8C9200C4BE29 /* ProfileTypesCoordinator.swift */; };
+		E10AC2B8282D8C9200C4BE29 /* ProfileTypesCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10AC2B6282D8C9200C4BE29 /* ProfileTypesCoordinator.swift */; };
+		E165DF9F282C9FE4002165DB /* ForgotPasswordCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E165DF9E282C9FE4002165DB /* ForgotPasswordCoordinator.swift */; };
+		E165DFA0282C9FE4002165DB /* ForgotPasswordCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E165DF9E282C9FE4002165DB /* ForgotPasswordCoordinator.swift */; };
+		E165DFA5282CA010002165DB /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E165DFA3282CA010002165DB /* ForgotPasswordViewController.swift */; };
+		E165DFA6282CA010002165DB /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E165DFA3282CA010002165DB /* ForgotPasswordViewController.swift */; };
+		E165DFA7282CA010002165DB /* ForgotPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E165DFA4282CA010002165DB /* ForgotPasswordViewController.xib */; };
+		E165DFA8282CA010002165DB /* ForgotPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E165DFA4282CA010002165DB /* ForgotPasswordViewController.xib */; };
+		E165DFAA282CA029002165DB /* ForgotPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E165DFA9282CA029002165DB /* ForgotPasswordViewModel.swift */; };
+		E165DFAB282CA029002165DB /* ForgotPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E165DFA9282CA029002165DB /* ForgotPasswordViewModel.swift */; };
+		E165DFAD282CA03C002165DB /* DefaultForgotPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E165DFAC282CA03C002165DB /* DefaultForgotPasswordViewModel.swift */; };
+		E165DFAE282CA03C002165DB /* DefaultForgotPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E165DFAC282CA03C002165DB /* DefaultForgotPasswordViewModel.swift */; };
+		E1BA15CE282C5A0A00B160D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1BA15CD282C5A0A00B160D0 /* LaunchScreen.storyboard */; };
+		E1BA15CF282C5A0A00B160D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1BA15CD282C5A0A00B160D0 /* LaunchScreen.storyboard */; };
+		E1BA15D1282C71C400B160D0 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BA15D0282C71C400B160D0 /* Utilities.swift */; };
+		E1BA15D2282C71C400B160D0 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BA15D0282C71C400B160D0 /* Utilities.swift */; };
+		E1C1CC1A282C32A50043A4D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C1CC19282C32A50043A4D6 /* AppDelegate.swift */; };
+		E1C1CC1C282C32A50043A4D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C1CC1B282C32A50043A4D6 /* SceneDelegate.swift */; };
+		E1C1CC23282C32A60043A4D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1C1CC22282C32A60043A4D6 /* Assets.xcassets */; };
+		E1C1CC30282C33A20043A4D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C1CC19282C32A50043A4D6 /* AppDelegate.swift */; };
+		E1C1CC31282C33A20043A4D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C1CC1B282C32A50043A4D6 /* SceneDelegate.swift */; };
+		E1C1CC3D282C349B0043A4D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1C1CC3C282C349B0043A4D6 /* Assets.xcassets */; };
+		E1C1CC44282C43BD0043A4D6 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C1CC43282C43BD0043A4D6 /* AppCoordinator.swift */; };
+		E1C1CC45282C43BD0043A4D6 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C1CC43282C43BD0043A4D6 /* AppCoordinator.swift */; };
+		E1C1CC48282C43FF0043A4D6 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C1CC47282C43FF0043A4D6 /* Coordinator.swift */; };
+		E1C1CC49282C43FF0043A4D6 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C1CC47282C43FF0043A4D6 /* Coordinator.swift */; };
+		E1C1CC4C282C46150043A4D6 /* ViewModelBindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C1CC4B282C46150043A4D6 /* ViewModelBindable.swift */; };
+		E1C1CC4D282C46150043A4D6 /* ViewModelBindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C1CC4B282C46150043A4D6 /* ViewModelBindable.swift */; };
+		E1C1CC4F282C461F0043A4D6 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C1CC4E282C461F0043A4D6 /* Observable.swift */; };
+		E1C1CC50282C461F0043A4D6 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C1CC4E282C461F0043A4D6 /* Observable.swift */; };
+		E1C1CC53282C483D0043A4D6 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C1CC52282C483C0043A4D6 /* MainCoordinator.swift */; };
+		E1C1CC54282C483D0043A4D6 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C1CC52282C483C0043A4D6 /* MainCoordinator.swift */; };
+		E1C1CC5D282C486D0043A4D6 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C1CC58282C486D0043A4D6 /* LoginViewModel.swift */; };
+		E1C1CC5E282C486D0043A4D6 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C1CC58282C486D0043A4D6 /* LoginViewModel.swift */; };
+		E1C1CC5F282C486D0043A4D6 /* DefaultLoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C1CC59282C486D0043A4D6 /* DefaultLoginViewModel.swift */; };
+		E1C1CC60282C486D0043A4D6 /* DefaultLoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C1CC59282C486D0043A4D6 /* DefaultLoginViewModel.swift */; };
+		E1C1CC61282C486D0043A4D6 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1C1CC5B282C486D0043A4D6 /* LoginViewController.xib */; };
+		E1C1CC62282C486D0043A4D6 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1C1CC5B282C486D0043A4D6 /* LoginViewController.xib */; };
+		E1C1CC63282C486D0043A4D6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C1CC5C282C486D0043A4D6 /* LoginViewController.swift */; };
+		E1C1CC64282C486D0043A4D6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C1CC5C282C486D0043A4D6 /* LoginViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		34FB5329E51ECBB4C38B0209 /* Pods-wlHope.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wlHope.debug.xcconfig"; path = "Target Support Files/Pods-wlHope/Pods-wlHope.debug.xcconfig"; sourceTree = "<group>"; };
+		6C579B250FF2B249BB4AFFBF /* Pods-wlHope.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wlHope.release.xcconfig"; path = "Target Support Files/Pods-wlHope/Pods-wlHope.release.xcconfig"; sourceTree = "<group>"; };
+		A1DCD7916249F975EE4128AE /* Pods-wlFilhas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wlFilhas.debug.xcconfig"; path = "Target Support Files/Pods-wlFilhas/Pods-wlFilhas.debug.xcconfig"; sourceTree = "<group>"; };
+		A62A041012ECCE432192C208 /* Pods-wlFilhas.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wlFilhas.release.xcconfig"; path = "Target Support Files/Pods-wlFilhas/Pods-wlFilhas.release.xcconfig"; sourceTree = "<group>"; };
+		E10AC2AC282D8BC500C4BE29 /* ProfileTypesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTypesViewController.swift; sourceTree = "<group>"; };
+		E10AC2AD282D8BC500C4BE29 /* ProfileTypesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileTypesViewController.xib; sourceTree = "<group>"; };
+		E10AC2B0282D8BF200C4BE29 /* ProfileTypesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTypesViewModel.swift; sourceTree = "<group>"; };
+		E10AC2B3282D8C0600C4BE29 /* DefaultProfileTypesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultProfileTypesViewModel.swift; sourceTree = "<group>"; };
+		E10AC2B6282D8C9200C4BE29 /* ProfileTypesCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTypesCoordinator.swift; sourceTree = "<group>"; };
+		E165DF9E282C9FE4002165DB /* ForgotPasswordCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordCoordinator.swift; sourceTree = "<group>"; };
+		E165DFA3282CA010002165DB /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		E165DFA4282CA010002165DB /* ForgotPasswordViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForgotPasswordViewController.xib; sourceTree = "<group>"; };
+		E165DFA9282CA029002165DB /* ForgotPasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewModel.swift; sourceTree = "<group>"; };
+		E165DFAC282CA03C002165DB /* DefaultForgotPasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultForgotPasswordViewModel.swift; sourceTree = "<group>"; };
+		E1BA15CD282C5A0A00B160D0 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E1BA15D0282C71C400B160D0 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		E1C1CC16282C32A50043A4D6 /* wlHope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wlHope.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1C1CC19282C32A50043A4D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E1C1CC1B282C32A50043A4D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E1C1CC22282C32A60043A4D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1C1CC27282C32A60043A4D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1C1CC39282C33A20043A4D6 /* wlFilhas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wlFilhas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1C1CC3A282C33A20043A4D6 /* wlHope copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "wlHope copy-Info.plist"; path = "/Users/fuze/Desktop/whitelabel/wlHope/wlHope copy-Info.plist"; sourceTree = "<absolute>"; };
+		E1C1CC3C282C349B0043A4D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1C1CC43282C43BD0043A4D6 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		E1C1CC47282C43FF0043A4D6 /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		E1C1CC4B282C46150043A4D6 /* ViewModelBindable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewModelBindable.swift; path = ../../../../HopeWL/HopeWL/Common/ViewModelBindable.swift; sourceTree = "<group>"; };
+		E1C1CC4E282C461F0043A4D6 /* Observable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Observable.swift; path = ../../../../HopeWL/HopeWL/Common/Observable.swift; sourceTree = "<group>"; };
+		E1C1CC52282C483C0043A4D6 /* MainCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		E1C1CC58282C486D0043A4D6 /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		E1C1CC59282C486D0043A4D6 /* DefaultLoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultLoginViewModel.swift; sourceTree = "<group>"; };
+		E1C1CC5B282C486D0043A4D6 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		E1C1CC5C282C486D0043A4D6 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1C1CC13282C32A50043A4D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1C1CC32282C33A20043A4D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BA81FB3728B4F39DEC85B16 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1DCD7916249F975EE4128AE /* Pods-wlFilhas.debug.xcconfig */,
+				A62A041012ECCE432192C208 /* Pods-wlFilhas.release.xcconfig */,
+				34FB5329E51ECBB4C38B0209 /* Pods-wlHope.debug.xcconfig */,
+				6C579B250FF2B249BB4AFFBF /* Pods-wlHope.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E10AC2A8282D8A0300C4BE29 /* ProfileTypes */ = {
+			isa = PBXGroup;
+			children = (
+				E10AC2B6282D8C9200C4BE29 /* ProfileTypesCoordinator.swift */,
+				E10AC2A9282D8B6700C4BE29 /* ViewModel */,
+				E10AC2AA282D8B6E00C4BE29 /* View */,
+			);
+			path = ProfileTypes;
+			sourceTree = "<group>";
+		};
+		E10AC2A9282D8B6700C4BE29 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E10AC2B0282D8BF200C4BE29 /* ProfileTypesViewModel.swift */,
+				E10AC2B3282D8C0600C4BE29 /* DefaultProfileTypesViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E10AC2AA282D8B6E00C4BE29 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E10AC2AB282D8B9600C4BE29 /* ProfileTypesViewCell */,
+				E10AC2AC282D8BC500C4BE29 /* ProfileTypesViewController.swift */,
+				E10AC2AD282D8BC500C4BE29 /* ProfileTypesViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E10AC2AB282D8B9600C4BE29 /* ProfileTypesViewCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ProfileTypesViewCell;
+			sourceTree = "<group>";
+		};
+		E165DF9D282C9FC3002165DB /* ForgotPassword */ = {
+			isa = PBXGroup;
+			children = (
+				E165DF9E282C9FE4002165DB /* ForgotPasswordCoordinator.swift */,
+				E165DFA2282C9FF1002165DB /* ViewModel */,
+				E165DFA1282C9FEB002165DB /* View */,
+			);
+			path = ForgotPassword;
+			sourceTree = "<group>";
+		};
+		E165DFA1282C9FEB002165DB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E165DFA3282CA010002165DB /* ForgotPasswordViewController.swift */,
+				E165DFA4282CA010002165DB /* ForgotPasswordViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E165DFA2282C9FF1002165DB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E165DFA9282CA029002165DB /* ForgotPasswordViewModel.swift */,
+				E165DFAC282CA03C002165DB /* DefaultForgotPasswordViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E1C1CC0D282C32A50043A4D6 = {
+			isa = PBXGroup;
+			children = (
+				E1C1CC18282C32A50043A4D6 /* wlHope */,
+				E1C1CC17282C32A50043A4D6 /* Products */,
+				9BA81FB3728B4F39DEC85B16 /* Pods */,
+				F5530AB82669ACD275C3B9B6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E1C1CC17282C32A50043A4D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1C1CC16282C32A50043A4D6 /* wlHope.app */,
+				E1C1CC39282C33A20043A4D6 /* wlFilhas.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1C1CC18282C32A50043A4D6 /* wlHope */ = {
+			isa = PBXGroup;
+			children = (
+				E1C1CC41282C370D0043A4D6 /* Main */,
+				E1C1CC3E282C36840043A4D6 /* wlHope */,
+				E1C1CC3B282C34580043A4D6 /* wlFilhas */,
+				E1C1CC27282C32A60043A4D6 /* Info.plist */,
+				E1C1CC22282C32A60043A4D6 /* Assets.xcassets */,
+			);
+			path = wlHope;
+			sourceTree = "<group>";
+		};
+		E1C1CC3B282C34580043A4D6 /* wlFilhas */ = {
+			isa = PBXGroup;
+			children = (
+				E1C1CC3A282C33A20043A4D6 /* wlHope copy-Info.plist */,
+				E1C1CC3C282C349B0043A4D6 /* Assets.xcassets */,
+			);
+			path = wlFilhas;
+			sourceTree = "<group>";
+		};
+		E1C1CC3E282C36840043A4D6 /* wlHope */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = wlHope;
+			sourceTree = "<group>";
+		};
+		E1C1CC41282C370D0043A4D6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E1C1CC42282C436C0043A4D6 /* Application */,
+				E1C1CC51282C464C0043A4D6 /* Scene */,
+				E1C1CC4A282C442E0043A4D6 /* Common */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E1C1CC42282C436C0043A4D6 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				E1C1CC19282C32A50043A4D6 /* AppDelegate.swift */,
+				E1C1CC1B282C32A50043A4D6 /* SceneDelegate.swift */,
+				E1C1CC43282C43BD0043A4D6 /* AppCoordinator.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		E1C1CC4A282C442E0043A4D6 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				E1BA15D0282C71C400B160D0 /* Utilities.swift */,
+				E1C1CC47282C43FF0043A4D6 /* Coordinator.swift */,
+				E1C1CC4E282C461F0043A4D6 /* Observable.swift */,
+				E1C1CC4B282C46150043A4D6 /* ViewModelBindable.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		E1C1CC51282C464C0043A4D6 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				E1BA15CD282C5A0A00B160D0 /* LaunchScreen.storyboard */,
+				E1C1CC55282C48410043A4D6 /* Main */,
+				E165DF9D282C9FC3002165DB /* ForgotPassword */,
+				E10AC2A8282D8A0300C4BE29 /* ProfileTypes */,
+				E1C1CC56282C486D0043A4D6 /* Login */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		E1C1CC55282C48410043A4D6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E1C1CC52282C483C0043A4D6 /* MainCoordinator.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E1C1CC56282C486D0043A4D6 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				E1C1CC57282C486D0043A4D6 /* ViewModel */,
+				E1C1CC5A282C486D0043A4D6 /* View */,
+			);
+			name = Login;
+			path = ../../../../HopeWL/HopeWL/Scene/Login;
+			sourceTree = "<group>";
+		};
+		E1C1CC57282C486D0043A4D6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E1C1CC58282C486D0043A4D6 /* LoginViewModel.swift */,
+				E1C1CC59282C486D0043A4D6 /* DefaultLoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E1C1CC5A282C486D0043A4D6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E1C1CC5B282C486D0043A4D6 /* LoginViewController.xib */,
+				E1C1CC5C282C486D0043A4D6 /* LoginViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F5530AB82669ACD275C3B9B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1C1CC15282C32A50043A4D6 /* wlHope */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1C1CC2A282C32A60043A4D6 /* Build configuration list for PBXNativeTarget "wlHope" */;
+			buildPhases = (
+				FCE86AB5EF4ADA1AF1170D87 /* [CP] Check Pods Manifest.lock */,
+				E1C1CC12282C32A50043A4D6 /* Sources */,
+				E1C1CC13282C32A50043A4D6 /* Frameworks */,
+				E1C1CC14282C32A50043A4D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wlHope;
+			productName = wlHope;
+			productReference = E1C1CC16282C32A50043A4D6 /* wlHope.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1C1CC2D282C33A20043A4D6 /* wlFilhas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1C1CC36282C33A20043A4D6 /* Build configuration list for PBXNativeTarget "wlFilhas" */;
+			buildPhases = (
+				41383C49087259D5DD0689FE /* [CP] Check Pods Manifest.lock */,
+				E1C1CC2E282C33A20043A4D6 /* Sources */,
+				E1C1CC32282C33A20043A4D6 /* Frameworks */,
+				E1C1CC33282C33A20043A4D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wlFilhas;
+			productName = wlHope;
+			productReference = E1C1CC39282C33A20043A4D6 /* wlFilhas.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1C1CC0E282C32A50043A4D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					E1C1CC15282C32A50043A4D6 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = E1C1CC11282C32A50043A4D6 /* Build configuration list for PBXProject "wlHope" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1C1CC0D282C32A50043A4D6;
+			productRefGroup = E1C1CC17282C32A50043A4D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1C1CC15282C32A50043A4D6 /* wlHope */,
+				E1C1CC2D282C33A20043A4D6 /* wlFilhas */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1C1CC14282C32A50043A4D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E165DFA7282CA010002165DB /* ForgotPasswordViewController.xib in Resources */,
+				E10AC2AF282D8BC500C4BE29 /* ProfileTypesViewController.xib in Resources */,
+				E1BA15CE282C5A0A00B160D0 /* LaunchScreen.storyboard in Resources */,
+				E1C1CC23282C32A60043A4D6 /* Assets.xcassets in Resources */,
+				E1C1CC61282C486D0043A4D6 /* LoginViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1C1CC33282C33A20043A4D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E165DFA8282CA010002165DB /* ForgotPasswordViewController.xib in Resources */,
+				E1BA15CF282C5A0A00B160D0 /* LaunchScreen.storyboard in Resources */,
+				E1C1CC3D282C349B0043A4D6 /* Assets.xcassets in Resources */,
+				E1C1CC62282C486D0043A4D6 /* LoginViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		41383C49087259D5DD0689FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-wlFilhas-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCE86AB5EF4ADA1AF1170D87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-wlHope-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1C1CC12282C32A50043A4D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E10AC2AE282D8BC500C4BE29 /* ProfileTypesViewController.swift in Sources */,
+				E1C1CC44282C43BD0043A4D6 /* AppCoordinator.swift in Sources */,
+				E165DFAD282CA03C002165DB /* DefaultForgotPasswordViewModel.swift in Sources */,
+				E1C1CC53282C483D0043A4D6 /* MainCoordinator.swift in Sources */,
+				E10AC2B1282D8BF200C4BE29 /* ProfileTypesViewModel.swift in Sources */,
+				E165DF9F282C9FE4002165DB /* ForgotPasswordCoordinator.swift in Sources */,
+				E10AC2B4282D8C0600C4BE29 /* DefaultProfileTypesViewModel.swift in Sources */,
+				E1BA15D1282C71C400B160D0 /* Utilities.swift in Sources */,
+				E1C1CC48282C43FF0043A4D6 /* Coordinator.swift in Sources */,
+				E1C1CC4F282C461F0043A4D6 /* Observable.swift in Sources */,
+				E1C1CC4C282C46150043A4D6 /* ViewModelBindable.swift in Sources */,
+				E1C1CC5F282C486D0043A4D6 /* DefaultLoginViewModel.swift in Sources */,
+				E1C1CC1A282C32A50043A4D6 /* AppDelegate.swift in Sources */,
+				E1C1CC1C282C32A50043A4D6 /* SceneDelegate.swift in Sources */,
+				E165DFAA282CA029002165DB /* ForgotPasswordViewModel.swift in Sources */,
+				E165DFA5282CA010002165DB /* ForgotPasswordViewController.swift in Sources */,
+				E10AC2B7282D8C9200C4BE29 /* ProfileTypesCoordinator.swift in Sources */,
+				E1C1CC5D282C486D0043A4D6 /* LoginViewModel.swift in Sources */,
+				E1C1CC63282C486D0043A4D6 /* LoginViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1C1CC2E282C33A20043A4D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1C1CC45282C43BD0043A4D6 /* AppCoordinator.swift in Sources */,
+				E165DFAE282CA03C002165DB /* DefaultForgotPasswordViewModel.swift in Sources */,
+				E1C1CC54282C483D0043A4D6 /* MainCoordinator.swift in Sources */,
+				E165DFA0282C9FE4002165DB /* ForgotPasswordCoordinator.swift in Sources */,
+				E1BA15D2282C71C400B160D0 /* Utilities.swift in Sources */,
+				E1C1CC49282C43FF0043A4D6 /* Coordinator.swift in Sources */,
+				E1C1CC50282C461F0043A4D6 /* Observable.swift in Sources */,
+				E1C1CC4D282C46150043A4D6 /* ViewModelBindable.swift in Sources */,
+				E10AC2B8282D8C9200C4BE29 /* ProfileTypesCoordinator.swift in Sources */,
+				E10AC2B2282D8BF200C4BE29 /* ProfileTypesViewModel.swift in Sources */,
+				E1C1CC60282C486D0043A4D6 /* DefaultLoginViewModel.swift in Sources */,
+				E1C1CC30282C33A20043A4D6 /* AppDelegate.swift in Sources */,
+				E10AC2B5282D8C0600C4BE29 /* DefaultProfileTypesViewModel.swift in Sources */,
+				E1C1CC31282C33A20043A4D6 /* SceneDelegate.swift in Sources */,
+				E165DFAB282CA029002165DB /* ForgotPasswordViewModel.swift in Sources */,
+				E165DFA6282CA010002165DB /* ForgotPasswordViewController.swift in Sources */,
+				E1C1CC5E282C486D0043A4D6 /* LoginViewModel.swift in Sources */,
+				E1C1CC64282C486D0043A4D6 /* LoginViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E1C1CC28282C32A60043A4D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E1C1CC29282C32A60043A4D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1C1CC2B282C32A60043A4D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34FB5329E51ECBB4C38B0209 /* Pods-wlHope.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J3ZAH6F73K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = wlHope/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iOSDev.wlHope;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1C1CC2C282C32A60043A4D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C579B250FF2B249BB4AFFBF /* Pods-wlHope.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J3ZAH6F73K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = wlHope/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iOSDev.wlHope;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E1C1CC37282C33A20043A4D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1DCD7916249F975EE4128AE /* Pods-wlFilhas.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J3ZAH6F73K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "wlHope copy-Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iOSDevFilhas.wlHope;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1C1CC38282C33A20043A4D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A62A041012ECCE432192C208 /* Pods-wlFilhas.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J3ZAH6F73K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "wlHope copy-Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iOSDevFilhas.wlHope;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1C1CC11282C32A50043A4D6 /* Build configuration list for PBXProject "wlHope" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1C1CC28282C32A60043A4D6 /* Debug */,
+				E1C1CC29282C32A60043A4D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1C1CC2A282C32A60043A4D6 /* Build configuration list for PBXNativeTarget "wlHope" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1C1CC2B282C32A60043A4D6 /* Debug */,
+				E1C1CC2C282C32A60043A4D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1C1CC36282C33A20043A4D6 /* Build configuration list for PBXNativeTarget "wlFilhas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1C1CC37282C33A20043A4D6 /* Debug */,
+				E1C1CC38282C33A20043A4D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1C1CC0E282C32A50043A4D6 /* Project object */;
+}

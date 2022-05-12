@@ -25,6 +25,8 @@
 		E165DFAB282CA029002165DB /* ForgotPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E165DFA9282CA029002165DB /* ForgotPasswordViewModel.swift */; };
 		E165DFAD282CA03C002165DB /* DefaultForgotPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E165DFAC282CA03C002165DB /* DefaultForgotPasswordViewModel.swift */; };
 		E165DFAE282CA03C002165DB /* DefaultForgotPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E165DFAC282CA03C002165DB /* DefaultForgotPasswordViewModel.swift */; };
+		E1717529282DB9B7009701EF /* ProfileTypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10AC2AC282D8BC500C4BE29 /* ProfileTypesViewController.swift */; };
+		E171752A282DB9BD009701EF /* ProfileTypesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E10AC2AD282D8BC500C4BE29 /* ProfileTypesViewController.xib */; };
 		E1BA15CE282C5A0A00B160D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1BA15CD282C5A0A00B160D0 /* LaunchScreen.storyboard */; };
 		E1BA15CF282C5A0A00B160D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1BA15CD282C5A0A00B160D0 /* LaunchScreen.storyboard */; };
 		E1BA15D1282C71C400B160D0 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BA15D0282C71C400B160D0 /* Utilities.swift */; };
@@ -207,7 +209,6 @@
 			isa = PBXGroup;
 			children = (
 				E1C1CC41282C370D0043A4D6 /* Main */,
-				E1C1CC3E282C36840043A4D6 /* wlHope */,
 				E1C1CC3B282C34580043A4D6 /* wlFilhas */,
 				E1C1CC27282C32A60043A4D6 /* Info.plist */,
 				E1C1CC22282C32A60043A4D6 /* Assets.xcassets */,
@@ -222,13 +223,6 @@
 				E1C1CC3C282C349B0043A4D6 /* Assets.xcassets */,
 			);
 			path = wlFilhas;
-			sourceTree = "<group>";
-		};
-		E1C1CC3E282C36840043A4D6 /* wlHope */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = wlHope;
 			sourceTree = "<group>";
 		};
 		E1C1CC41282C370D0043A4D6 /* Main */ = {
@@ -408,6 +402,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E165DFA8282CA010002165DB /* ForgotPasswordViewController.xib in Resources */,
+				E171752A282DB9BD009701EF /* ProfileTypesViewController.xib in Resources */,
 				E1BA15CF282C5A0A00B160D0 /* LaunchScreen.storyboard in Resources */,
 				E1C1CC3D282C349B0043A4D6 /* Assets.xcassets in Resources */,
 				E1C1CC62282C486D0043A4D6 /* LoginViewController.xib in Resources */,
@@ -495,6 +490,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1C1CC45282C43BD0043A4D6 /* AppCoordinator.swift in Sources */,
+				E1717529282DB9B7009701EF /* ProfileTypesViewController.swift in Sources */,
 				E165DFAE282CA03C002165DB /* DefaultForgotPasswordViewModel.swift in Sources */,
 				E1C1CC54282C483D0043A4D6 /* MainCoordinator.swift in Sources */,
 				E165DFA0282C9FE4002165DB /* ForgotPasswordCoordinator.swift in Sources */,
@@ -568,7 +564,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -622,7 +618,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

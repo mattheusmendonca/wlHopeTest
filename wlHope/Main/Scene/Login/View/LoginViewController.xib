@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController" customModule="wlFilhas" customModuleProvider="target">
+            <connections>
+                <outlet property="createAccount" destination="3Li-5V-Fk2" id="DGi-tX-gNS"/>
+                <outlet property="emailTextField" destination="wB1-dL-18w" id="dCa-3S-g2X"/>
+                <outlet property="logInButton" destination="W0i-3s-o5f" id="yaZ-93-VnE"/>
+                <outlet property="passwordTextField" destination="x4q-bc-oFJ" id="eh7-7j-U8L"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Login" translatesAutoresizingMaskIntoConstraints="NO" id="cDg-yC-du4">
+                    <rect key="frame" x="20" y="104" width="374" height="300"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="300" id="xLd-IL-KKB"/>
+                    </constraints>
+                </imageView>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="uLO-Mt-VwI">
+                    <rect key="frame" x="20" y="444" width="374" height="220"/>
+                    <subviews>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Email" borderStyle="roundedRect" placeholder="Email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wB1-dL-18w">
+                            <rect key="frame" x="0.0" y="0.0" width="374" height="40"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="WRI-6J-h7x"/>
+                            </constraints>
+                            <color key="textColor" name="ForgotPassword"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Senha" borderStyle="roundedRect" placeholder="Senha" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="x4q-bc-oFJ">
+                            <rect key="frame" x="0.0" y="60" width="374" height="40"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="IPa-t5-0F9"/>
+                            </constraints>
+                            <color key="textColor" name="ForgotPassword"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W0i-3s-o5f" userLabel="Button1">
+                            <rect key="frame" x="0.0" y="120" width="374" height="40"/>
+                            <color key="backgroundColor" name="BackgroundB"/>
+                            <fontDescription key="fontDescription" type="system" weight="light" pointSize="18"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="ENTRAR">
+                                <color key="titleColor" name="NameB"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FkN-8l-c6A" userLabel="ButtonFP">
+                            <rect key="frame" x="0.0" y="180" width="374" height="40"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="ESQUECI MINHA SENHA">
+                                <color key="titleColor" name="ForgotPassword"/>
+                            </state>
+                            <connections>
+                                <action selector="forgotPasswordTapped:" destination="-1" eventType="touchUpInside" id="e9l-RR-tol"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                </stackView>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="gAq-Mf-kJ3">
+                    <rect key="frame" x="60" y="811" width="334" height="31"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NÃO POSSUI CONTA?" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jtr-qv-f8r">
+                            <rect key="frame" x="0.0" y="0.0" width="165" height="31"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" name="LabelB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Li-5V-Fk2" userLabel="ButtonCC">
+                            <rect key="frame" x="169" y="0.0" width="165" height="31"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="CRIAR CONTA">
+                                <color key="titleColor" name="CreateAccount"/>
+                            </state>
+                            <connections>
+                                <action selector="createAccountTapped:" destination="-1" eventType="touchUpInside" id="zqi-Hs-8y0"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" name="BackgroundLS"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="gAq-Mf-kJ3" secondAttribute="bottom" constant="20" id="0Ez-2W-iMN"/>
+                <constraint firstItem="uLO-Mt-VwI" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="3PG-Y6-h33"/>
+                <constraint firstItem="uLO-Mt-VwI" firstAttribute="top" secondItem="cDg-yC-du4" secondAttribute="bottom" constant="40" id="5r1-Pj-Tcl"/>
+                <constraint firstItem="gAq-Mf-kJ3" firstAttribute="top" secondItem="uLO-Mt-VwI" secondAttribute="bottom" constant="147" id="Ps1-mq-Mvm"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="gAq-Mf-kJ3" secondAttribute="trailing" constant="20" id="cnf-dZ-WGO"/>
+                <constraint firstItem="cDg-yC-du4" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="eeG-Fi-P3p"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="uLO-Mt-VwI" secondAttribute="trailing" constant="20" id="nhH-CW-i7t"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="cDg-yC-du4" secondAttribute="trailing" constant="20" id="ogV-wF-M7n"/>
+                <constraint firstItem="gAq-Mf-kJ3" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="60" id="rxI-3b-Cpb"/>
+                <constraint firstItem="cDg-yC-du4" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="60" id="wEc-Xl-9e9"/>
+            </constraints>
+            <point key="canvasLocation" x="131.8840579710145" y="110.49107142857143"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Login" width="750" height="750"/>
+        <namedColor name="BackgroundB">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="BackgroundLS">
+            <color red="1" green="1" blue="0.34509803921568627" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="CreateAccount">
+            <color red="0.27099999785423279" green="0.027000000700354576" blue="0.63099998235702515" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="ForgotPassword">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="LabelB">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="NameB">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

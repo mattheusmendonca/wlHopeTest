@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>wlHope copy.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>wlHope.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -17,6 +22,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>E1C1CC15282C32A50043A4D6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>E1C1CC2D282C33A20043A4D6</key>
 		<dict>
 			<key>primary</key>

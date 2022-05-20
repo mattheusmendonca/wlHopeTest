@@ -24,7 +24,7 @@ protocol ProfileTypesViewModelInput {
 }
 
 protocol ProfileTypesViewModelOutput {
-    
+    var options: Observable<[Option]> { get }
 }
 
 protocol ProfileTypesViewModel: ProfileTypesViewModelInput & ProfileTypesViewModelOutput {}

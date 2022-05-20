@@ -27,6 +27,10 @@ class ForgotPasswordViewController: UIViewController, ViewModelBindable {
         Utilities.styleFilledButton(sendButton)
     }
 
+    @IBAction func forgotPasswordButtonTapped(_ sender: Any) {
+        viewModel?.didTapBack()
+    }
+    
     @IBAction func backButton(_ sender: Any) {
         viewModel?.didTapBack()
     }

@@ -15,10 +15,10 @@
 		E102DA1C2837598B0049EC5F /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102DA1A2837598B0049EC5F /* LoginViewModel.swift */; };
 		E102DA1E283759910049EC5F /* DefaultLoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102DA1D283759910049EC5F /* DefaultLoginViewModel.swift */; };
 		E102DA1F283759910049EC5F /* DefaultLoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102DA1D283759910049EC5F /* DefaultLoginViewModel.swift */; };
-		E102DA2128375A070049EC5F /* ViewModelBindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102DA2028375A070049EC5F /* ViewModelBindable.swift */; };
-		E102DA2228375A070049EC5F /* ViewModelBindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102DA2028375A070049EC5F /* ViewModelBindable.swift */; };
-		E102DA2428375A120049EC5F /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102DA2328375A120049EC5F /* Observable.swift */; };
-		E102DA2528375A120049EC5F /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102DA2328375A120049EC5F /* Observable.swift */; };
+		E102DA302837613F0049EC5F /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102DA2F2837613F0049EC5F /* Observable.swift */; };
+		E102DA312837613F0049EC5F /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102DA2F2837613F0049EC5F /* Observable.swift */; };
+		E102DA33283761700049EC5F /* ViewModelBindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102DA32283761700049EC5F /* ViewModelBindable.swift */; };
+		E102DA34283761700049EC5F /* ViewModelBindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E102DA32283761700049EC5F /* ViewModelBindable.swift */; };
 		E10AC2AE282D8BC500C4BE29 /* ProfileTypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10AC2AC282D8BC500C4BE29 /* ProfileTypesViewController.swift */; };
 		E10AC2AF282D8BC500C4BE29 /* ProfileTypesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E10AC2AD282D8BC500C4BE29 /* ProfileTypesViewController.xib */; };
 		E10AC2B1282D8BF200C4BE29 /* ProfileTypesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10AC2B0282D8BF200C4BE29 /* ProfileTypesViewModel.swift */; };
@@ -82,8 +82,8 @@
 		E102DA17283759710049EC5F /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		E102DA1A2837598B0049EC5F /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		E102DA1D283759910049EC5F /* DefaultLoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultLoginViewModel.swift; sourceTree = "<group>"; };
-		E102DA2028375A070049EC5F /* ViewModelBindable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewModelBindable.swift; path = ../../../../../abnercod/testeWL/wlHope/Main/Common/ViewModelBindable.swift; sourceTree = "<group>"; };
-		E102DA2328375A120049EC5F /* Observable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Observable.swift; path = ../../../../../abnercod/testeWL/wlHope/Main/Common/Observable.swift; sourceTree = "<group>"; };
+		E102DA2F2837613F0049EC5F /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		E102DA32283761700049EC5F /* ViewModelBindable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelBindable.swift; sourceTree = "<group>"; };
 		E10AC2AC282D8BC500C4BE29 /* ProfileTypesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTypesViewController.swift; sourceTree = "<group>"; };
 		E10AC2AD282D8BC500C4BE29 /* ProfileTypesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileTypesViewController.xib; sourceTree = "<group>"; };
 		E10AC2B0282D8BF200C4BE29 /* ProfileTypesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTypesViewModel.swift; sourceTree = "<group>"; };
@@ -171,6 +171,22 @@
 				E102DA1D283759910049EC5F /* DefaultLoginViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E102DA2D2837610B0049EC5F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E102DA32283761700049EC5F /* ViewModelBindable.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E102DA2E283761190049EC5F /* Observable */ = {
+			isa = PBXGroup;
+			children = (
+				E102DA2F2837613F0049EC5F /* Observable.swift */,
+			);
+			path = Observable;
 			sourceTree = "<group>";
 		};
 		E10AC2A8282D8A0300C4BE29 /* ProfileTypes */ = {
@@ -329,11 +345,11 @@
 		E1C1CC4A282C442E0043A4D6 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				E102DA2E283761190049EC5F /* Observable */,
+				E102DA2D2837610B0049EC5F /* ViewModel */,
 				E162ECD3283603A800D9CA8B /* AppColor */,
 				E1BA15D0282C71C400B160D0 /* Utilities.swift */,
 				E1C1CC47282C43FF0043A4D6 /* Coordinator.swift */,
-				E102DA2028375A070049EC5F /* ViewModelBindable.swift */,
-				E102DA2328375A120049EC5F /* Observable.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -522,8 +538,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E102DA302837613F0049EC5F /* Observable.swift in Sources */,
 				E1502316282E908A006E35A7 /* SignUpViewController.swift in Sources */,
 				E10AC2AE282D8BC500C4BE29 /* ProfileTypesViewController.swift in Sources */,
+				E102DA33283761700049EC5F /* ViewModelBindable.swift in Sources */,
 				E1C1CC44282C43BD0043A4D6 /* AppCoordinator.swift in Sources */,
 				E102DA15283759690049EC5F /* LoginViewController.swift in Sources */,
 				E165DFAD282CA03C002165DB /* DefaultForgotPasswordViewModel.swift in Sources */,
@@ -533,12 +551,10 @@
 				E150231E282E90B2006E35A7 /* DefaultSignUpViewModel.swift in Sources */,
 				E10AC2B1282D8BF200C4BE29 /* ProfileTypesViewModel.swift in Sources */,
 				E165DF9F282C9FE4002165DB /* ForgotPasswordCoordinator.swift in Sources */,
-				E102DA2428375A120049EC5F /* Observable.swift in Sources */,
 				E10AC2B4282D8C0600C4BE29 /* DefaultProfileTypesViewModel.swift in Sources */,
 				E1502310282E9030006E35A7 /* SignUpCoordinator.swift in Sources */,
 				E1BA15D1282C71C400B160D0 /* Utilities.swift in Sources */,
 				E1C1CC48282C43FF0043A4D6 /* Coordinator.swift in Sources */,
-				E102DA2128375A070049EC5F /* ViewModelBindable.swift in Sources */,
 				E150231B282E90A2006E35A7 /* SignUpViewModel.swift in Sources */,
 				E162ECD12836039700D9CA8B /* AppColor.swift in Sources */,
 				E1C1CC1A282C32A50043A4D6 /* AppDelegate.swift in Sources */,
@@ -554,8 +570,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E102DA312837613F0049EC5F /* Observable.swift in Sources */,
 				E1502320282EA0A2006E35A7 /* AppDelegate.swift in Sources */,
 				E150231F282E90B2006E35A7 /* DefaultSignUpViewModel.swift in Sources */,
+				E102DA34283761700049EC5F /* ViewModelBindable.swift in Sources */,
 				E1C1CC45282C43BD0043A4D6 /* AppCoordinator.swift in Sources */,
 				E102DA16283759690049EC5F /* LoginViewController.swift in Sources */,
 				E1717529282DB9B7009701EF /* ProfileTypesViewController.swift in Sources */,
@@ -565,12 +583,10 @@
 				E165DFA0282C9FE4002165DB /* ForgotPasswordCoordinator.swift in Sources */,
 				E1BA15D2282C71C400B160D0 /* Utilities.swift in Sources */,
 				E1BF25422834A2F900B85171 /* DefaultProfileTypesViewModel.swift in Sources */,
-				E102DA2528375A120049EC5F /* Observable.swift in Sources */,
 				E1C1CC49282C43FF0043A4D6 /* Coordinator.swift in Sources */,
 				E162ECCB28356AA900D9CA8B /* ProfileTypesHopeTableViewCell.swift in Sources */,
 				E10AC2B8282D8C9200C4BE29 /* ProfileTypesCoordinator.swift in Sources */,
 				E10AC2B2282D8BF200C4BE29 /* ProfileTypesViewModel.swift in Sources */,
-				E102DA2228375A070049EC5F /* ViewModelBindable.swift in Sources */,
 				E162ECD22836039700D9CA8B /* AppColor.swift in Sources */,
 				E150231C282E90A2006E35A7 /* SignUpViewModel.swift in Sources */,
 				E1C1CC31282C33A20043A4D6 /* SceneDelegate.swift in Sources */,

@@ -39,6 +39,9 @@ class ProfileTypesViewController: UIViewController, ViewModelBindable {
     @IBAction func backButtonTapped(_ sender: Any) {
         viewModel?.goBack()
     }
+    @IBAction func nextQuestionButtonTapped(_ sender: Any) {
+        viewModel?.nextQuestion()
+    }
 }
 
 extension ProfileTypesViewController: UITableViewDelegate, UITableViewDataSource {

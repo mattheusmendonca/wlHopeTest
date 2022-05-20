@@ -96,7 +96,7 @@
                     </subviews>
                 </stackView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="teQ-S9-Ob6">
-                    <rect key="frame" x="20" y="802" width="374" height="40"/>
+                    <rect key="frame" x="20" y="822" width="374" height="40"/>
                     <color key="backgroundColor" name="BackgroundB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="40" id="SnF-Az-xc5"/>
@@ -115,7 +115,7 @@
             <color key="backgroundColor" name="BackgroundLS"/>
             <constraints>
                 <constraint firstItem="aoO-Tp-PBW" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="0Pz-NM-hcm"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="teQ-S9-Ob6" secondAttribute="bottom" constant="20" id="2QA-6V-VyK"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="teQ-S9-Ob6" secondAttribute="bottom" id="2QA-6V-VyK"/>
                 <constraint firstItem="n6l-eU-SOU" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="32O-cz-AdA"/>
                 <constraint firstItem="4c1-oX-LEa" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="427-q4-HHt"/>
                 <constraint firstItem="Py1-ny-GUN" firstAttribute="top" secondItem="4c1-oX-LEa" secondAttribute="bottom" constant="16" id="6VP-xd-0Dl"/>
@@ -146,7 +146,7 @@
     <resources>
         <image name="arrow.backward" catalog="system" width="128" height="98"/>
         <namedColor name="BackgroundB">
-            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.27099999785423279" green="0.027000000700354576" blue="0.63099998235702515" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
         <namedColor name="BackgroundLS">
             <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -155,7 +155,7 @@
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="ForgotPassword">
-            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="NameB">
             <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

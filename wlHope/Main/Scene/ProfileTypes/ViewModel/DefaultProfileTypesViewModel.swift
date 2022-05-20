@@ -35,13 +35,13 @@ class DefaultProfileTypesViewModel: ProfileTypesViewModel {
         let optionFive = Option(imageSelected: UIImage(named: "Option5.2"), imageNotSelected: UIImage(named: "Option5"), title: "Comunicador", description: "Desejo criar conteúdo", isSelected: false)
         
         return [optionOne, optionTwo, optionThree, optionFour, optionFive]
-        #endif
-        
+        #else
         let optionOneFilhas = Option(imageSelected: UIImage(named: "Option1"), imageNotSelected: UIImage(named: "Option1"), title: "Paciente", description: "Sofro com dependência química e busco ajuda", isSelected: false)
         let optionTwoFilhas = Option(imageSelected: UIImage(named: "Option2"), imageNotSelected: UIImage(named: "Option2"), title: "Cuidador", description: "Quero ajudar um familiar ou amigo dependente", isSelected: false)
         let optionThreeFilhas = Option(imageSelected: UIImage(named: "Option3"), imageNotSelected: UIImage(named: "Option3"), title:  "Grupo de apoio", description: "Saí do mundo das drogas e desejo ajudar outras pessoas", isSelected: false)
         
         return [optionOneFilhas, optionTwoFilhas, optionThreeFilhas]
+        #endif
     }
     
     func getNumberOfSections() -> Int {
@@ -67,20 +67,7 @@ class DefaultProfileTypesViewModel: ProfileTypesViewModel {
     }
 
     func nextQuestion() {
-        
-    }
-    
-    func pushAnswer() -> Int {
-        var index: Int = 0
-        
-        for option in options.value {
-            if option.isSelected {
-                return index + 1
-            }
-            index += 1
-        }
-        
-        return -1
+        coordinator?.nextQuestion()
     }
 }
 

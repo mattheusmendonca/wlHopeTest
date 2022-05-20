@@ -32,5 +32,11 @@ class ProfileTypesCoordinator: NavigationCoordinator {
             self.isCompleted?()
         }
     }
+    
+    func nextQuestion() {
+        let signUpCoordinator = SignUpCoordinator()
+        self.start(coordinator: signUpCoordinator)
+        self.rootViewController.present(signUpCoordinator.rootViewController, animated: true, completion: nil)
+    }
 
 }

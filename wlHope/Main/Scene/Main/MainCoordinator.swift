@@ -26,9 +26,9 @@ class MainCoordinator: NavigationCoordinator {
     }
     
     func createAccount() {
-        let profileTypesCoordinatorTwo = ProfileTypesCoordinator()
-        self.start(coordinator: profileTypesCoordinatorTwo)
-        self.rootViewController.present(profileTypesCoordinatorTwo.rootViewController, animated: true, completion: nil)
+        let profileTypesCoordinator = ProfileTypesCoordinator()
+        self.start(coordinator: profileTypesCoordinator)
+        self.rootViewController.present(profileTypesCoordinator.rootViewController, animated: true, completion: nil)
     }
     
     func forgotPassword() {

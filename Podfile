@@ -5,7 +5,6 @@ target 'wlFilhas' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-
   # Pods for wlFilhas
 
 end
@@ -13,7 +12,6 @@ end
 target 'wlHope' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-
 
   # Pods for wlHope
 
